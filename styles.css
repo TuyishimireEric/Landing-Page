@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+  overflow-x: hidden;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 100%;
+  font-family: proxima-nova, sans-serif;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("./images/large_focal_g3020-bisate-lodge.jpg") no-repeat center center/cover;
+    filter: brightness(0.5);
+    background-size: cover;
+    background-position: center;
+    opacity: 0.7; /* Adjust the opacity as needed */
+    z-index: -1;
+}
+
+.navbar {
+    display: flex;
+    width: 80%;
+    height: 60px;
+    background-color: none;
+    justify-content: space-between;
+    align-items: center;
+    filter: brightness(1.5);
+}
+
+.navbar .logo {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.navbar nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.welcome {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    height: 60vh;
+    border: 1px solid #fff;
+    overflow: hidden;
+}
+
+.welcome .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px;
+    color: #fff;
+    gap: 28px;
+}
+
+.welcome .left h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.welcome .btn {
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.welcome .btn:hover {
+    background-color: #ffffffa1;
+    color: #000;
+    border-radius: 56px;
+}
+
+.welcome .right {
+    flex: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    object-fit: contain;
+    background-image: url("./images/Visit-Rwanda-Bisate-4-700x467.jpg");
+    background-size: cover;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.welcome .right:hover {
+    transform: scale(1.1);
+}
+
+.places {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+    background-color: #D3CDC9;
+    gap: 24px;
+    padding: 24px 0;
+}
+
+.places .place {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    border-radius: 4px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+
+.places .place:hover {
+    transform: scale(1.1);
+}
