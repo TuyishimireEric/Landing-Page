@@ -36,7 +36,7 @@ This project is made to encourage and promote visit Rwanda
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://reserve-car.onrender.com/)
+- [Live Demo Link](https://tuyishimireeric.github.io/Landing-Page/)
 
 <!-- GETTING STARTED -->
 
