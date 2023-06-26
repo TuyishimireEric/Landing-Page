@@ -7,15 +7,15 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header" id="home">
         <div class="navbar">
             <img src="images/logo.png" alt="logo" class="logo">
             <nav>
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Places</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#places">Places</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact us</a></li>
                 </ul>
             </nav>
         </div>    
@@ -32,11 +32,31 @@
             </div>    
         </div>    
     </header>
-    <div class="places">
+    <div class="places" id="places">
         <h2>Places to visit</h2>
         <ul>
             <li>
-                <img src="images/nyungwe.jpg" alt="nyungwe" class="place-img">
+                <img src="./images/NYUNGWE-FOREST2.jpg" alt="nyungwe" class="place-img">
+                <div class="place-info">
+                    <h3>Nyungwe Forest</h3>
+                    <p>Located in the South West corner of Rwanda, 
+                        Nyungwe National Park is an untouched natural rainforest that is
+                         filled with exciting biodiversity.</p>
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </li>
+            <li>
+                <img src="images/Visit-Rwanda-Kings-Palace-Nyanza-Front-700x467.jpg" alt="nyungwe" class="place-img">
+                <div class="place-info">
+                    <h3>Murukari</h3>
+                    <p>Located in the South West corner of Rwanda,
+                         Nyungwe National Park is an untouched natural rainforest 
+                         that is filled with exciting biodiversity.</p>
+                    <a href="#" class="btn">Learn more</a>
+                </div>
+            </li>
+            <li>
+                <img src="./images/Visit-Rwanda-NH_OO_LifestyleCanopy_Walk_0657_MASTER-1920x1280.jpg" alt="nyungwe" class="place-img">
                 <div class="place-info">
                     <h3>Nyungwe Forest</h3>
                     <p>Located in the South West corner of Rwanda, Nyungwe National Park is an untouched natural rainforest that is filled with exciting biodiversity.</p>
@@ -44,23 +64,7 @@
                 </div>
             </li>
             <li>
-                <img src="images/nyungwe.jpg" alt="nyungwe" class="place-img">
-                <div class="place-info">
-                    <h3>Nyungwe Forest</h3>
-                    <p>Located in the South West corner of Rwanda, Nyungwe National Park is an untouched natural rainforest that is filled with exciting biodiversity.</p>
-                    <a href="#" class="btn">Learn more</a>
-                </div>
-            </li>
-            <li>
-                <img src="images/nyungwe.jpg" alt="nyungwe" class="place-img">
-                <div class="place-info">
-                    <h3>Nyungwe Forest</h3>
-                    <p>Located in the South West corner of Rwanda, Nyungwe National Park is an untouched natural rainforest that is filled with exciting biodiversity.</p>
-                    <a href="#" class="btn">Learn more</a>
-                </div>
-            </li>
-            <li>
-                <img src="images/nyungwe.jpg" alt="nyungwe" class="place-img">
+                <img src="./images/Visit-Rwanda-Bisate-4-700x467.jpg" alt="nyungwe" class="place-img">
                 <div class="place-info">
                     <h3>Nyungwe Forest</h3>
                     <p>Located in the South West corner of Rwanda, Nyungwe National Park is an untouched natural rainforest that is filled with exciting biodiversity.</p>
@@ -69,5 +73,32 @@
             </li>
         </ul>
     </div>
+    <div class="about" id="about">
+        <h2>About</h2>
+        <p> Rwanda, located in East Africa, is a captivating destination known for its stunning landscapes, diverse wildlife, and rich cultural heritage. From the awe-inspiring gorilla
+             trekking in Volcanoes National Park to the exhilarating safari experiences in Akagera National Park, there is no shortage of natural wonders to explore. The somber yet essential visit to 
+             the Kigali Genocide Memorial provides a deeper understanding of Rwanda's past. For relaxation, Lake Kivu offers tranquil waters and picturesque views, while immersing in local traditions and
+              participating in cultural activities provides a glimpse into Rwanda's vibrant heritage. With its commitment to safety and stability, Rwanda welcomes tourists with open arms. However, it is crucial
+               to stay updated on travel guidelines and secure necessary permits, such as gorilla trekking permits, to make the most of your visit.
+        <br>
+        <br>
+            Furthermore, a visit to Rwanda would be incomplete without exploring its vibrant capital city, Kigali. This bustling metropolis boasts a thriving culinary scene, vibrant markets, 
+            and a blend of modern and traditional architecture. The city's many museums and art galleries offer insights into Rwanda's history, art, and cultural expressions. The Inema Arts Center 
+            is a must-visit, showcasing the country's contemporary art scene. Additionally, Kigali's clean and organized streets, along with its friendly and welcoming atmosphere, make it a pleasant
+             and safe city to explore. Whether you're sampling local cuisine, browsing through vibrant markets, or simply enjoying the city's ambiance, Kigali is sure to leave a lasting impression on any visitor.
+        </p>
+    </div>
+    <div class="contact" id="contact">
+        <div class="box">
+            <div class="left">
+                <h2>Let's join the trip</h2>
+                <p>Subscribe to our newsletter and get the latest updates</p>
+            </div>
+            <button class="btn">Subscribe</button>
+        </div>
+    </div>
+    <footer>
+        Copy right &copy; Tuyishimire Eric 2023
+    </footer>
 </body>
 </html>

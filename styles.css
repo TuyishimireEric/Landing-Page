@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 html, body {
@@ -139,27 +140,167 @@ header {
 
 .places {
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
+    height: fit-content;
     justify-content: space-between;
     margin: auto;
+    align-items: center;
     background-color: #D3CDC9;
-    gap: 24px;
-    padding: 24px 0;
+    gap: 48px;
+    padding: 48px 0;
 }
 
-.places .place {
+h2 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.places ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    list-style: none;
+    gap: 18px;
+}
+
+.places ul li {
     flex: 1;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 400px;
+    background-color: #ffffff74;
     border-radius: 4px;
-    overflow: hidden;
     cursor: pointer;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     transition: all 0.4s ease-in-out;
 }
 
-.places .place:hover {
-    transform: scale(1.1);
+.places ul li:hover {
+    scale: 1.1;
+}
+
+.places ul li img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.places ul li .place-info {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 12px;
+}
+
+.place-info .btn {
+    text-decoration: none;
+    padding: 12px;
+    background-color: #00000077;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.place-info .btn:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    margin: auto;
+    color: #fff;
+    width: 100%;
+    gap: 48px;
+    padding: 48px 10%;
+    text-align: center;
+}
+
+.about p {
+    border: 1px solid #fff;
+    padding: 24px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 50vh;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    background-color: #D3CDC9;
+    gap: 48px;
+    padding: 48px 0;
+}
+
+.contact .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: fit-content;
+    background-color: #00000077;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 80%;
+    padding: 24px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    transition: all 0.4s ease-in-out;
+}
+
+.contact .box .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 24px;
+    color: #fff;
+    gap: 28px;
+}
+
+.contact .box .btn {
+    text-decoration: none;
+    padding: 12px 24px;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.contact .box .btn:hover {
+    background-color: #ffffffa1;
+    color: #000;
+    border-radius: 56px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    width: 100%;
+    text-align: center;
 }
