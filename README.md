@@ -58,7 +58,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```sh
-  git 
+  git clone git@github.com:TuyishimireEric/Landing-Page.git
 ```
 -
 
@@ -78,7 +78,7 @@ Clone this repository to your desired folder:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/TuyishimireEric/Landing-Page/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,7 +99,7 @@ I would like to thank Andela and Odin Project for the guidance and Visit Rwamda
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE.md) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
